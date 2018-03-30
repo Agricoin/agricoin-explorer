@@ -1,6 +1,6 @@
 # Explorer
 
-A HTMLCOIN blockchain explorer web application service for [HTMLCOINCORE Node](https://github.com/HTMLCOIN/htmlcoincore-node) using the [HTMLCOIN API](https://github.com/HTMLCOIN/htmlcoin-api).
+A Agricoin blockchain explorer web application service for [AgricoinCORE Node](https://github.com/Agricoin/agricoincore-node) using the [Agricoin API](https://github.com/Agricoin/agricoin-api).
 
 
 ## Install via SSH
@@ -10,34 +10,34 @@ nvm use v6
 ```
 
 ```
-npm install git//github.com/HTMLCOIN/htmlcoincore-node.git#master
-cd htmlcoincore-node
-./bin/htmlcoincore-node create explorer
-cd explorer 
-../bin/htmlcoincore-node install htmlcoin-api
-../bin/htmlcoincore-node install htmlcoin-explorer
+npm install git//github.com/Agricoin/agricoincore-node.git#master
+cd agricoincore-node
+./bin/agricoincore-node create explorer
+cd explorer
+../bin/agricoincore-node install agricoin-api
+../bin/agricoincore-node install agricoin-explorer
 
 ```
 
-Edit htmlcoincore-node.json:
+Edit agricoincore-node.json:
 ```
 {
   "network": "livenet",
   "port": 3001,
   "services": [
-    "htmlcoind",
-    "htmlcoin-api",
-    "htmlcoin-explorer",
+    "agricoind",
+    "agricoin-api",
+    "agricoin-explorer",
     "web"
   ],
   "servicesConfig": {
-    "htmlcoin-explorer": {
-      "apiPrefix": "htmlcoin-api",
-      "routePrefix": "htmlcoin-explorer",
-	  "nodemapLink": "http://explorer.htmlcoin.com/en/nodemap"
+    "agricoin-explorer": {
+      "apiPrefix": "agricoin-api",
+      "routePrefix": "agricoin-explorer",
+	  "nodemapLink": "http://explorer.agricoin.com/en/nodemap"
     },
-    "htmlcoin-api": {
-      "routePrefix": "htmlcoin-api",
+    "agricoin-api": {
+      "routePrefix": "agricoin-api",
       "rateLimiterOptions": {
         "whitelist": ["123.456.12.34", "::ffff:123.456.12.34"],
         "whitelistLimit": 9999999,
@@ -48,7 +48,7 @@ Edit htmlcoincore-node.json:
       "db": {
         "host": "127.0.0.1",
         "port": "27017",
-        "database": "htmlcoin-explorer",
+        "database": "agricoin-explorer",
         "user": "",
         "password": ""
       },
@@ -56,17 +56,17 @@ Edit htmlcoincore-node.json:
         "updateFromBlockHeight": 0
       }
     },
-    "htmlcoind": {
+    "agricoind": {
       "spawn": {
-        "datadir": "/home/user/.htmlcoin",
-        "exec": "/home/user/htmlcoincore-node/bin/htmlcoind"
+        "datadir": "/home/user/.agricoin",
+        "exec": "/home/user/agricoincore-node/bin/agricoind"
       }
     }
   }
 }
 ```
 
-Edit htmlcoin.conf:
+Edit agricoin.conf:
 ```
 server=1
 whitelist=127.0.0.1
@@ -87,7 +87,7 @@ logevents=1
 ```
 
 ```
-$(npm bin)/htmlcoincore-node start
+$(npm bin)/agricoincore-node start
 ```
 
 
@@ -96,15 +96,15 @@ $(npm bin)/htmlcoincore-node start
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g htmlcoincore-node
-htmlcoincore-node create mynode
+npm install -g agricoincore-node
+agricoincore-node create mynode
 cd mynode
-htmlcoincore-node install htmlcoin-api
-htmlcoincore-node install htmlcoin-explorer
-htmlcoincore-node start
+agricoincore-node install agricoin-api
+agricoincore-node install agricoin-explorer
+agricoincore-node start
 ```
 
-Open a web browser to `http://localhost:3001/htmlcoin-explorer`
+Open a web browser to `http://localhost:3001/agricoin-explorer`
 
 ## Development
 
@@ -155,11 +155,11 @@ compile***.
 
 ## Note
 
-For more details about the [HTMLCOIN API](https://github.com/HTMLCOIN/htmlcoin-api) configuration and end-points, go to [HTMLCOIN API](https://github.com/HTMLCOIN/htmlcoin-api).
+For more details about the [Agricoin API](https://github.com/Agricoin/agricoin-api) configuration and end-points, go to [Agricoin API](https://github.com/Agricoin/agricoin-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Explorer GitHub repository](https://github.com/HTMLCOIN/htmlcoin-explorer).
+Contributions and suggestions are welcomed at the [Explorer GitHub repository](https://github.com/Agricoin/agricoin-explorer).
 
 
 ## License

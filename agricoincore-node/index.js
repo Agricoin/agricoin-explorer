@@ -9,7 +9,7 @@ var InsightUI = function(options) {
   if (typeof options.apiPrefix !== 'undefined') {
     this.apiPrefix = options.apiPrefix;
   } else {
-    this.apiPrefix = 'htmlcoin-api';
+    this.apiPrefix = 'agricoin-api';
   }
   if (typeof options.routePrefix !== 'undefined') {
     this.routePrefix = options.routePrefix;
@@ -27,7 +27,7 @@ var InsightUI = function(options) {
 
 };
 
-InsightUI.dependencies = ['htmlcoin-api'];
+InsightUI.dependencies = ['agricoin-api'];
 
 inherits(InsightUI, BaseService);
 

@@ -26,7 +26,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Total Amount"
 msgid "A Total of"
-msgstr "HTMLCOIN総量"
+msgstr "Agricoin総量"
 
 #: public/views/index.html
 msgid "About"
@@ -122,10 +122,10 @@ msgstr "インターネットに接続できません。コネクションを確
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to htmlcoind to get live updates from the p2p network. (Tried "
-"connecting to htmlcoind at {{host}}:{{port}} and failed.)"
+"Can't connect to agricoind to get live updates from the p2p network. (Tried "
+"connecting to agricoind at {{host}}:{{port}} and failed.)"
 msgstr ""
-"P2Pネットワークからライブ情報を取得するためにhtmlcoindへ接続することができませ"
+"P2Pネットワークからライブ情報を取得するためにagricoindへ接続することができませ"
 "んでした。({{host}}:{{port}} への接続を試みましたが、失敗しました。)"
 
 #: public/views/transaction.html
@@ -189,7 +189,7 @@ msgstr "現在の同期状況"
 #: public/views/index.html
 #, fuzzy
 #| msgid "Transactions"
-msgid "day HTMLCOIN Transaction History"
+msgid "day Agricoin Transaction History"
 msgstr "トランザクション"
 
 #: public/src/js/controllers/statistics.js
@@ -295,13 +295,13 @@ msgstr "入力は未検証です"
 #: public/views/index.html
 msgid ""
 "Insight is an <a href=\"https://insight.is/\" target=\"_blank\">open-source "
-"HTMLCOIN blockchain explorer</a> with complete REST and websocket APIs that "
+"Agricoin blockchain explorer</a> with complete REST and websocket APIs that "
 "can be used for writing web wallets and other apps that need more advanced "
-"blockchain queries than provided by htmlcoind RPC. Check out the <a href="
+"blockchain queries than provided by agricoind RPC. Check out the <a href="
 "\"https://github.com/bitpay/insight-ui\" target=\"_blank\" class=\"ng-scope"
 "\">source code</a>."
 msgstr ""
-"Insight は、htmlcoind RPCの提供するものよりも詳細なブロックチェインへの問い合"
+"Insight は、agricoind RPCの提供するものよりも詳細なブロックチェインへの問い合"
 "わせを必要とするウェブウォレットやその他のアプリを書くのに使える、完全なREST"
 "およびwebsocket APIを備えた <a href=\"http://live.insight.is/\" target="
 "\"_blank\">オープンソースのビットコインブロックエクスプローラ</a> です。<a "
@@ -330,7 +330,7 @@ msgstr ""
 msgid ""
 "Last Block Hash \r\n"
 "\t\t\t\t\t\t\t\t<span class=\"fsz-13\">\r\n"
-"\t\t\t\t\t\t\t\t\t({{ 'htmlcoind' | translate }})\r\n"
+"\t\t\t\t\t\t\t\t\t({{ 'agricoind' | translate }})\r\n"
 "\t\t\t\t\t\t\t\t</span>"
 msgstr ""
 
@@ -472,21 +472,21 @@ msgid "Quantity"
 msgstr ""
 
 #: public/views/messages_verify.html
-msgid "HTMLCOIN comes with a way of signing arbitrary messages."
-msgstr "HTMLCOINには任意のメッセージを署名する昨日が備わっています。"
+msgid "Agricoin comes with a way of signing arbitrary messages."
+msgstr "Agricoinには任意のメッセージを署名する昨日が備わっています。"
 
 #: public/views/statistics.html
-msgid "HTMLCOIN Mined"
+msgid "Agricoin Mined"
 msgstr ""
 
 #: public/views/status.html
 #, fuzzy
-#| msgid "HTMLCOIN node information"
-msgid "HTMLCOIN node information"
-msgstr "HTMLCOINノード情報"
+#| msgid "Agricoin node information"
+msgid "Agricoin node information"
+msgstr "Agricoinノード情報"
 
 #: public/views/status.html
-msgid "htmlcoind"
+msgid "agricoind"
 msgstr ""
 
 #: public/views/token/holders.html
@@ -580,7 +580,7 @@ msgid "Summary"
 msgstr "概要"
 
 #: public/views/statistics.html
-msgid "Summary of HTMLCOIN statistics for last 24 hours"
+msgid "Summary of Agricoin statistics for last 24 hours"
 msgstr ""
 
 #: public/views/status.html
@@ -631,20 +631,20 @@ msgstr "このアドレスに対するトランザクションはありません
 #, fuzzy
 #| msgid ""
 #| "This form can be used to broadcast a raw transaction in hex format over\n"
-#| "        the HTMLCOIN network."
+#| "        the Agricoin network."
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\r\n"
-"        the HTMLCOIN network."
+"        the Agricoin network."
 msgstr ""
-"このフォームでは、16進数フォーマットの生のトランザクションをHTMLCOINネットワー"
+"このフォームでは、16進数フォーマットの生のトランザクションをAgricoinネットワー"
 "ク上に配信することができます。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\r\n"
-"        a specific HTMLCOIN address."
+"        a specific Agricoin address."
 msgstr ""
-"このフォームでは、メッセージが特定のHTMLCOINアドレスから来たかどうかを検証する"
+"このフォームでは、メッセージが特定のAgricoinアドレスから来たかどうかを検証する"
 "ことができます。"
 
 #: public/views/statistics.html
@@ -820,8 +820,8 @@ msgstr ""
 #~ msgid "Input"
 #~ msgstr "入力"
 
-#~ msgid "Last Block Hash (htmlcoind)"
-#~ msgstr "直前のブロックのハッシュ値 (htmlcoind)"
+#~ msgid "Last Block Hash (agricoind)"
+#~ msgstr "直前のブロックのハッシュ値 (agricoind)"
 
 #~ msgid "Loading Address Information"
 #~ msgstr "アドレス情報を読み込んでいます"

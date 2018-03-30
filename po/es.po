@@ -127,11 +127,11 @@ msgstr "No se pudo conectar a Internet. Por favor, verifique su conexión."
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to htmlcoind to get live updates from the p2p network. (Tried "
-"connecting to htmlcoind at {{host}}:{{port}} and failed.)"
+"Can't connect to agricoind to get live updates from the p2p network. (Tried "
+"connecting to agricoind at {{host}}:{{port}} and failed.)"
 msgstr ""
-"No se pudo conectar a htmlcoind para obtener actualizaciones en vivo de la "
-"red p2p. (Se intentó conectar a htmlcoind de {{host}}:{{port}} y falló.)"
+"No se pudo conectar a agricoind para obtener actualizaciones en vivo de la "
+"red p2p. (Se intentó conectar a agricoind de {{host}}:{{port}} y falló.)"
 
 #: public/views/transaction.html
 msgid "Coinbase"
@@ -194,7 +194,7 @@ msgstr "Actual Estado de Sincronización"
 #: public/views/index.html
 #, fuzzy
 #| msgid "Transactions"
-msgid "day HTMLCOIN Transaction History"
+msgid "day Agricoin Transaction History"
 msgstr "Transacciones"
 
 #: public/src/js/controllers/statistics.js
@@ -300,15 +300,15 @@ msgstr "Entrada sin confirmar"
 #: public/views/index.html
 msgid ""
 "Insight is an <a href=\"https://insight.is/\" target=\"_blank\">open-source "
-"HTMLCOIN blockchain explorer</a> with complete REST and websocket APIs that "
+"Agricoin blockchain explorer</a> with complete REST and websocket APIs that "
 "can be used for writing web wallets and other apps that need more advanced "
-"blockchain queries than provided by htmlcoind RPC. Check out the <a href="
+"blockchain queries than provided by agricoind RPC. Check out the <a href="
 "\"https://github.com/bitpay/insight-ui\" target=\"_blank\" class=\"ng-scope"
 "\">source code</a>."
 msgstr ""
 "Insight  es un <a href=\"https://insight.is/\" target=\"_blank\">explorador "
-"de bloques de HTMLCOIN open-source </a>con un complete conjunto de REST y "
-"APIs de websockets que pueden ser usadas para escribir monederos de HTMLCOINs "
+"de bloques de Agricoin open-source </a>con un complete conjunto de REST y "
+"APIs de websockets que pueden ser usadas para escribir monederos de Agricoins "
 "y otras aplicaciones que requieran consultar in explorador de bloques.  "
 "Obtén el código en <a href=\"https://github.com/bitpay/insight-ui\" target="
 "\"_blank\" class=\"ng-scope\">el repositorio abierto de Github</a>."
@@ -336,7 +336,7 @@ msgstr ""
 msgid ""
 "Last Block Hash \r\n"
 "\t\t\t\t\t\t\t\t<span class=\"fsz-13\">\r\n"
-"\t\t\t\t\t\t\t\t\t({{ 'htmlcoind' | translate }})\r\n"
+"\t\t\t\t\t\t\t\t\t({{ 'agricoind' | translate }})\r\n"
 "\t\t\t\t\t\t\t\t</span>"
 msgstr ""
 
@@ -478,21 +478,21 @@ msgid "Quantity"
 msgstr ""
 
 #: public/views/messages_verify.html
-msgid "HTMLCOIN comes with a way of signing arbitrary messages."
+msgid "Agricoin comes with a way of signing arbitrary messages."
 msgstr ""
 
 #: public/views/statistics.html
-msgid "HTMLCOIN Mined"
+msgid "Agricoin Mined"
 msgstr ""
 
 #: public/views/status.html
 #, fuzzy
-#| msgid "HTMLCOIN node information"
-msgid "HTMLCOIN node information"
-msgstr "Información del nodo HTMLCOIN"
+#| msgid "Agricoin node information"
+msgid "Agricoin node information"
+msgstr "Información del nodo Agricoin"
 
 #: public/views/status.html
-msgid "htmlcoind"
+msgid "agricoind"
 msgstr ""
 
 #: public/views/token/holders.html
@@ -590,7 +590,7 @@ msgid "Summary"
 msgstr "Resumen"
 
 #: public/views/statistics.html
-msgid "Summary of HTMLCOIN statistics for last 24 hours"
+msgid "Summary of Agricoin statistics for last 24 hours"
 msgstr ""
 
 #: public/views/status.html
@@ -640,13 +640,13 @@ msgstr "No hay transacciones para esta dirección."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\r\n"
-"        the HTMLCOIN network."
+"        the Agricoin network."
 msgstr ""
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\r\n"
-"        a specific HTMLCOIN address."
+"        a specific Agricoin address."
 msgstr ""
 
 #: public/views/statistics.html
@@ -808,8 +808,8 @@ msgstr ""
 #~ msgid "Insight is an"
 #~ msgstr "Insight  es un"
 
-#~ msgid "open-source HTMLCOIN blockchain explorer"
-#~ msgstr "explorador de bloques de HTMLCOIN open-source"
+#~ msgid "open-source Agricoin blockchain explorer"
+#~ msgstr "explorador de bloques de Agricoin open-source"
 
 #~ msgid "source code"
 #~ msgstr "el repositorio abierto de Github"
@@ -832,8 +832,8 @@ msgstr ""
 #~ msgid "Input"
 #~ msgstr "Entrada"
 
-#~ msgid "Last Block Hash (htmlcoind)"
-#~ msgstr "Último Bloque Hash (htmlcoind)"
+#~ msgid "Last Block Hash (agricoind)"
+#~ msgstr "Último Bloque Hash (agricoind)"
 
 #~ msgid "Loading Address Information"
 #~ msgstr "Cargando Información de la Dirección"
